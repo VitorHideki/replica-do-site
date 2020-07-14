@@ -1,0 +1,29 @@
+.receitas {
+    text-align: center;
+    width: 100%;
+    display: inline-block;
+
+
+}
+
+
+@media screen and (min-width: 0) {
+    .receitas{
+        width: 50%;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .receitas{
+       width: 100%  ;
+        text-align: center;
+
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .receitas{
+        display: inline-block;
+        text-align: center;
+    }
+}

@@ -1,0 +1,16 @@
+.nomePessoa {
+    font: bold 35px/45px Pacifico, Sans-Serif;
+    text-align: center;
+    color: darkred;
+    display: inline-block;
+}
+
+.pessoaDescricao {
+    font: bold 15px/10px Arial;
+    text-align: center;
+    color: gray;
+}
+
+div#pessoa{
+    display: inline-block;
+}

@@ -1,0 +1,42 @@
+.rodape {
+    background: lightgrey;
+    height: 100%;
+    text-align: end;
+}
+
+.final{
+    display: inline-block;
+    float: right;
+    height: 100%;
+}
+.final ul{
+    margin:0;
+    background-color: lightgrey;
+    list-style: none;
+    display: inline-block;
+    float: right;
+    vertical-align: top;
+}
+.final ul li{
+    display: inline;
+}
+.final ul li a{
+    padding: 10px 10px;
+    color: black;
+    text-decoration: none;
+}
+.final ul li a:hover{
+    color: darkgray;
+}
+
+@media screen and (min-width: 0) {
+    .rodape {
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .rodape {
+        width: 100%;
+    }
+}

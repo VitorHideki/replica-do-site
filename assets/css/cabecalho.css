@@ -1,0 +1,44 @@
+.cabecalho {
+    background: white;
+    height: 80px;
+}
+.body{
+    background-color: white;
+}
+.logo{
+    display: inline-block;
+    height: 80px;
+    padding:15px;
+}
+.logo img{
+    height: 100%;
+}
+.menu{
+    display: inline-block;
+    float: right;
+    height: 80px;
+    padding:25px;
+}
+.menu ul{
+    margin:0;
+    background-color: white;
+    list-style: none;
+    display: inline-block;
+    float: right;
+    vertical-align: top;
+}
+.menu ul li{
+    display: inline;
+}
+.menu ul li a{
+    padding: 10px 10px;
+    display: inline-block;
+    color: lightgrey;
+    text-decoration: none;
+}
+.menu ul li a:hover{
+    color: darkgray;
+}
+*{
+    box-sizing: border-box;
+}
